@@ -29,6 +29,7 @@ public class GitTestApplication {
 
 	public static void main(String[] args) throws Exception {
 		log.info("Main App Started..");
+		log.info("Main App Started with actuator..");
 		SpringApplication.run(GitTestApplication.class, args);
 	}
 }
