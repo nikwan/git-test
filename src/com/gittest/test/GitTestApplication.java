@@ -26,6 +26,7 @@ public class GitTestApplication {
 	
 
 	public static void main(String[] args) throws Exception {
+		System.out.println("Main App Started..");
 		SpringApplication.run(GitTestApplication.class, args);
 	}
 }
